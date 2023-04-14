@@ -79,17 +79,17 @@ export default function Header({ isSignedIn, onSignOut }) {
             component={RouterLink}
             to="/"
           >
-            App
+            Ap p
           </Typography>
           <Button
             color="primary"
             variant="outlined"
             className={classes.link}
             component={RouterLink}
-            to={isSignedIn ? '/' : '/auth/signin'}
+            to={isSignedIn ? "/" : "/auth/signin"}
             onClick={onClick}
           >
-            {isSignedIn ? 'Logout' : 'Login'}
+            {isSignedIn ? "Logout" : "Login"}
           </Button>
         </Toolbar>
       </AppBar>
